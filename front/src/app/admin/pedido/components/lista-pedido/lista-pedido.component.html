@@ -18,8 +18,7 @@
                         <h6>DNI:{{pedido.cliente.dni}}</h6>
     
                 </td>
-                   
-                
+                   <p-button (onClick)="generarPDF(pedido)" icon="pi pi-file" class="ml-2" ></p-button>
                 <td>
                     <p-button (onClick)="showDialogPedido(pedido)"icon="pi pi-table" label="Ver Detalle" > </p-button>
                 </td>
