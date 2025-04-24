@@ -21,4 +21,5 @@ export class Pedido {
 
     @ManyToMany(()=>PedidoProducto, pedprod=> pedprod.pedido)
     pedidoProducto: PedidoProducto[];
+  pedidoProductos: any;
 }

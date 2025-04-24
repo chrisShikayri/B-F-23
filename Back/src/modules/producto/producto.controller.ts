@@ -9,7 +9,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
 import { extname } from 'path';
 
-@UseGuards(JwtAuthGuard)//con esto ya no podemos acceder a los productos
+//@UseGuards(JwtAuthGuard)//con esto ya no podemos acceder a los productos
 @ApiBearerAuth()// esto es solo para swagger
 @ApiTags('producto')
 @Controller('producto')
